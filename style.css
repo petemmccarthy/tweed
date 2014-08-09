@@ -1,0 +1,14 @@
+
+body { 
+
+background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
+background-repeat: no-repeat;
+background-color: #C0DEED;
+
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0px; }
