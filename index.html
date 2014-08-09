@@ -6,7 +6,7 @@
     <h1></h1>
 
     <link href='style.css' rel='stylesheet'>
-    <!-- <link href='reset.css' rel='stylesheet'> -->
+    <link href='reset.css' rel='stylesheet'>
   </head>
 
   
@@ -17,29 +17,85 @@
     <header>
 
       <nav id='nav_left'>
-        <a id='home'          href='#'> <img src='home.png'/> Home                 </a>
-        <a id='notification'  href='#'> <img src='notification.png'/> Notifications</a>
-        <a id='discover'      href='#'> <img src='discover.png'/>Discover          </a>
-        <a id='me'            href='#'> <img src='me.png'/>Me                      </a>
+        <a id='home' href='#'> <img src='home.png'/>Home</a>
+        <a id='notification' href='#'> <img src='notification.png'/>Notifications</a>
+        <a id='discover' href='#'> <img src='discover.png'/>Discover</a>
+        <a id='me' href='#'> <img src='me.png'/>Me</a>
+        <a id='bird' href='#'> <img src='bird.png'/></a>
       </nav>
+
       <nav id='nav_right'>
+        <!-- search needs search icon -->
         <form>
           <input type='text' name='search' placeholder="Search Twitter" >
-          <button id='search_button'></button>
-        </form>          <a href='#'><img src='public/images/directMessages.png' label="Direct messages"/>  </a>
-        <a href='#'><img src='public/images/settingsHelp.png'   label="Settings and help"/></a>
-        <a href='#'><img src='public/images/composeNewTweet.png'label="Compose new tweet"/></a>
+          <button id='search_button' ></button>
+        </form>          
+        <a href='#'><img src='directMessages.png' label="Direct messages"/>  </a>
+        <a href='#'><img src='settings.png' label="Settings and help"/></a>
+        <a href='#'><img src='compose.png' label="Compose new tweet"/></a>
       </nav>
 
     </header>
 
-    <div></div>
 
-<section></section>
+
+    <aside>
+      <section class="profile">
+        <section class="profile top"></section>
+        <section class="profile picture"></section>
+        <h3 class="profile name">Peter McCarthy</h3>
+        <p class="profile handle">@1978pmm</p>
+        <ul class="profile stats">
+          <li>
+            <section class="profile stats title">TWEETS</section>
+            <section class="profile stats value">58</section>
+          </li>
+          <li id="second">
+            <section class="profile stats title">FOLLOWING</section>
+            <section class="profile stats value">38</section>
+          </li>
+          <li>
+            <section class="profile stats title">FOLLOWERS</section>
+            <section class="profile stats value">21</section>
+          </li>
+        </ul>
+        <section class="profile tweet">
+          <input type="text" placeholder="Compose new Tweet...">
+        </section>
+      </section>
 
       <article>
+
+      <header>
+        <h3>Trends</h3>
+        <small>Change</small>
+      </header>
+
+      <section>
+        <ul>
+          <li>#ISIS</li>
+          <li>#tumble</li>
+          <li>iraq</li>
+          <li>#Defcon</li>
+          <li>London</li>
+          <li>Iraq</li>
+          <li>Islamicstate</li>
+          <li>Amazon</li>
+        </ul>
+      </section>
+
+    </article>
+
+    </aside>
+
+
+
+
+
+
+      <!-- <article>
         <input type="text" placeholder="Compose new Tweet...">
-      </article>
+      </article> -->
    
 
 
