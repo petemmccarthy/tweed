@@ -6,6 +6,7 @@
     <h1></h1>
 
     <link href='style.css' rel='stylesheet'>
+    <!-- <link href='reset.css' rel='stylesheet'> -->
   </head>
 
   
@@ -15,14 +16,20 @@
 
     <header>
 
-      <ul>
-        <li>
-
-        </li>      
-
-      </ul>  
-
-      
+      <nav id='nav_left'>
+        <a id='home'          href='#'> <img src='home.png'/> Home                 </a>
+        <a id='notification'  href='#'> <img src='notification.png'/> Notifications</a>
+        <a id='discover'      href='#'> <img src='discover.png'/>Discover          </a>
+        <a id='me'            href='#'> <img src='me.png'/>Me                      </a>
+      </nav>
+      <nav id='nav_right'>
+        <form>
+          <input type='text' name='search' placeholder="Search Twitter" >
+          <button id='search_button'></button>
+        </form>          <a href='#'><img src='public/images/directMessages.png' label="Direct messages"/>  </a>
+        <a href='#'><img src='public/images/settingsHelp.png'   label="Settings and help"/></a>
+        <a href='#'><img src='public/images/composeNewTweet.png'label="Compose new tweet"/></a>
+      </nav>
 
     </header>
 
